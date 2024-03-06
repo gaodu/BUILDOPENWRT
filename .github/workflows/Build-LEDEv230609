@@ -1,4 +1,4 @@
-name: Build-LEDE20230609
+name: LEDEv230609
 
 on:
   repository_dispatch:
