@@ -1,4 +1,4 @@
-name: Build-LEDEMT7628
+name: Build-LEDE20230609
 
 on:
   repository_dispatch:
@@ -20,7 +20,7 @@ env:
   UPLOAD_OUTPUT: true
 
 jobs:
-   Build-LEDEMT7628:
+   Build-LEDEMT20230609:
     runs-on: ubuntu-20.04
     permissions:
       contents: write
@@ -117,6 +117,6 @@ jobs:
         tag: "${{ env.DEVICE }}--${{ env.FILE_DATE }}"
         artifacts: "openwrt/bin/targets/*/*/*"
         body: |
-          # 未测试×
+          # 20230609未测试×
           
           IP: 192.168.2.1 | Password: none
