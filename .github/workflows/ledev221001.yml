@@ -10,7 +10,7 @@ on:
         default: 'false'
         
 env:
-  REPO_URL: https://github.com/gaodu/lede
+  REPO_URL: https://github.com/gaodu/ledeopenwrt
   REPO_BRANCH: v221001
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: MIni.config
