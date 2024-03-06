@@ -1,4 +1,4 @@
-name: LEDEv230609
+name: Build-LEDEv230609
 
 on:
   repository_dispatch:
@@ -10,7 +10,7 @@ on:
         default: 'false'
         
 env:
-  REPO_URL: https://github.com/gaodu/lede
+  REPO_URL: https://github.com/gaodu/ledeopenwrt
   REPO_BRANCH: v230609
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
