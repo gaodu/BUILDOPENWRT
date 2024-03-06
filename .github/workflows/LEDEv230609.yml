@@ -117,6 +117,6 @@ jobs:
         tag: "${{ env.DEVICE }}--${{ env.FILE_DATE }}"
         artifacts: "openwrt/bin/targets/*/*/*"
         body: |
-          # 20230609未测试×
+          # LEDEv230609未测试×
           
           IP: 192.168.2.1 | Password: none
