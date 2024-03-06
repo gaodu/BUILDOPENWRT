@@ -1,4 +1,4 @@
-name: Build-LEDE20221001
+name: Build-LEDEv221001
 
 on:
   repository_dispatch:
@@ -13,7 +13,7 @@ env:
   REPO_URL: https://github.com/gaodu/lede
   REPO_BRANCH: v221001
   FEEDS_CONF: feeds.conf.default
-  CONFIG_FILE: .config
+  CONFIG_FILE: MIni.config
   DIY_P1_SH: diy-part1.sh
   TZ: Asia/Shanghai
   DEVICE: MT7628
