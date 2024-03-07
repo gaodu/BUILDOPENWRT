@@ -11,7 +11,7 @@ on:
         
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
-  REPO_BRANCH: v23.05.1
+  REPO_BRANCH: openwrt-18.06
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: MIni.config
   DIY_P1_SH: diy-part1.sh
@@ -117,6 +117,6 @@ jobs:
         tag: "${{ env.DEVICE }}--${{ env.FILE_DATE }}"
         artifacts: "openwrt/bin/targets/*/*/*"
         body: |
-          # immortalwrt23051未测试×
+          # immortalwrt1806未测试×
           
           IP: 192.168.2.1 | Password: none
