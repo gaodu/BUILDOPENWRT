@@ -10,7 +10,7 @@ on:
         default: 'false'
         
 env:
-  REPO_URL: https://github.com/immortalwrt/immortalwrt
+  REPO_URL: https://github.com/gaodu/immortalwrt
   REPO_BRANCH: v1806
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: MIni.config
