@@ -1,4 +1,4 @@
-name: Build-immortalwrt23051
+name: Build-immortalwrt1806
 
 on:
   repository_dispatch:
@@ -20,7 +20,7 @@ env:
   UPLOAD_OUTPUT: true
 
 jobs:
-   Build-immortalwrt23051:
+   Build-immortalwrt1806:
     runs-on: ubuntu-20.04
     permissions:
       contents: write
