@@ -117,6 +117,6 @@ jobs:
         tag: "${{ env.DEVICE }}--${{ env.FILE_DATE }}"
         artifacts: "openwrt/bin/targets/*/*/*"
         body: |
-          # immortalwrt21027未测试×
+          # immortalwrt21027-OK有ser2net和zerotier LUCI界面，无其它系统干净，启动时间1:30
           
           IP: 192.168.2.1 | Password: none
